@@ -21,6 +21,7 @@ gunicorn ${APP_NAME} \
     -w ${WORKERS} \
     --worker-class ${UVICORN_WORKER} \
     --log-level ${LOGLEVEL} \
+    --log-config ${LOGCONFIG} \
     --backlog ${BACKLOG} \
     --max-requests ${LIMIT_MAX_REQUESTS} \
     --max-requests-jitter ${MAX_REQUESTS_JITTER} \

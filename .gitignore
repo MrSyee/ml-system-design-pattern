@@ -141,3 +141,6 @@ savedmodel
 .vscode/*
 
 .DS_Store
+
+# log
+log
